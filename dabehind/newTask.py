@@ -21,3 +21,7 @@ raw.close()
 if newTask in q:
     before = homepage.find('</table>')
     homepage = homepage[:before] + task + homepage[before:]
+
+taskpage = open('index.html', w)
+taskpage.write(homepage)
+taskpage.close()
