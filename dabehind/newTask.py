@@ -9,7 +9,10 @@ def formatTask(task):
     newTask = "<Tahseen send me this>"
     newTask += task
     newTask += "</Plssend>"
+
 query = getQuery()
+
+task = formatTask(query[newTask])
 
 raw = open('index.html', r)
 homepage = raw.read()
