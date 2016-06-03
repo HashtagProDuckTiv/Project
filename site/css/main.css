@@ -1,22 +1,80 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Arimo:400,400italic,700");
+@import url("http://fonts.googleapis.com/css?family=Alegreya+Sans:400,800,500");
 
 /*
  ==============================DESIGN=======================================
- *Font - Arimo, Sans-serif accross the board
+ *Font - Alegreya Sans, Sans-serif accross the board
+ *400 Weight - Paragraph Text
+ *800 Weight - Headings
+ *500 Weight - Links
  ==============================COLOR=========================================
  *Color Scheme
- ** c9c9c9
- ** e3e3e3
- ** 9ad3de
- ** 89bdd3
+ ** c9c9c9 - Darker Gray ---------- Navigation Background
+ ** e3e3e3 - Lighter Gray --------- Background of Site
+ ** 9ad3de - Teal Light Blue ------ Active Navigation Background
+ ** 89bdd3 - Darker Light Blue ---- Header, Headings Color, Links
 
  */
 
 /*Fonts*/
-p, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arimo', sans-serif;;
+p {
+  font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 800;
+  color: #89bdd3;
+}
+
+a {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  color: #89bdd3;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  color: #9ad3de;
+  text-decoration: none;
+}
+
 /*Navigation*/
+nav {
+  position: fixed;
+}
+
+nav ul {
+  list-style-type: none; /*Gets rid of bullets*/
+  margin: 0; /*Gets rid of margins*/
+  padding-left: 0; /*Gets rid of padding*/
+  width: 210%;
+  background-color: #c9c9c9;
+}
+
+nav li a {
+  display: block; /*Makes the entire block clickable*/
+  color: #000;
+  padding: 70px 50px 70px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav li a:hover {
+  color: #fff;
+  background-color: #9ad3de;
+}
+
+.active {
+    background-color: #9ad3de;
+    color: #fff;
+}
+
+/*Body & Background*/
+body {
+  background-color: #e3e3e3;
+  padding-left: 0px;
+}
