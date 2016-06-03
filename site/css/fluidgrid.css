@@ -23,6 +23,12 @@
 
  /*Styles for Grid*/
 
+ .row {
+   margin: 0px auto;
+   max-width: 950px;
+   padding: 55px;
+ }
+
  .column {
    float: left;
    margin-left: 3%;
