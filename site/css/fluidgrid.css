@@ -24,7 +24,6 @@
  /*Styles for Grid*/
 
  .row {
-   margin: 0px auto;
    max-width: 950px;
    padding: 55px;
  }
@@ -39,39 +38,50 @@
    margin: 0; /*The first column of every row has no margin.*/
  }
 
-.1u {
+.col-1u {
   width: 5.583333333333333%;
 }
-.2u {
+
+.col-2u {
   width: 14.166666666666666%;
 }
-.3u {
+
+.col-3u {
   width: 22.75%;
 }
-.4u {
+
+.col-4u {
   width: 31.333333333333333%;
 }
-.5u {
+
+.col-5u {
   width: 39.916666666666664%;
 }
-.6u {
+
+.col-6u {
   width: 48.5%;
 }
-.7u {
+
+.col-7u {
   width: 57.083333333333333%;
 }
-.8u {
+
+.col-8u {
   width: 65.666666666666666%;
 }
-.9u {
+
+.col-9u {
   width: 74.25%;
 }
-.10u {
+
+.col-10u {
   width: 82.833333333333333%;
 }
-.11u {
+
+.col-11u {
   width: 91.416666666666666%;
 }
-.12u {
+
+.col-12u {
   width: 100%;
 }
