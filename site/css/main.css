@@ -1,0 +1,22 @@
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Arimo:400,400italic,700");
+
+/*
+ ==============================DESIGN=======================================
+ *Font - Arimo, Sans-serif accross the board
+ ==============================COLOR=========================================
+ *Color Scheme
+ ** c9c9c9
+ ** e3e3e3
+ ** 9ad3de
+ ** 89bdd3
+
+ */
+
+/*Fonts*/
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arimo', sans-serif;;
+  font-weight: 400;
+}
+
+/*Navigation*/
