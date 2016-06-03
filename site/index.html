@@ -5,15 +5,16 @@
     <link rel="stylesheet" href="css/fluidgrid.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
   </head>
 
   <body>
     <header>
       <nav id="navHorizontal">
         <ul>
-          <li class="logo"><h1>ProDuckTiv</h1></li>
-          <li class="loginbutton"><a href="#">Login</a></li>
-          <li class="loginbutton"><a href="#">Sign Up</a></li>
+          <li class="logo"><a href="index.html"><h1>ProDuckTiv</h1></a></li>
+          <li class="loginbutton"><a href="#" class="navButton"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; &nbsp;Login</a></li>
+          <li class="loginbutton"><a href="signup.html" class="navButton" class="active"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp; &nbsp;Sign Up</a></li>
         </ul>
       </nav>
     </header>
@@ -21,8 +22,10 @@
 
     <div class="row">
       <div class="column col-9u">
+        <form name="newTask" method="GET" action="triForm.py">
+
+        </form>
       </div>
-      <div class="column col-3u">
     </div>
 
   </body>
