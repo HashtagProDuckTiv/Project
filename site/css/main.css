@@ -99,6 +99,19 @@ input[type=submit].taskremove {
   margin-top: 0px;
 }
 
+input[type=submit].signup {
+  background-color: #89bdd3;
+  border: none;
+  color: white;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 input[type=submit]:hover {
   background-color: #9ad3de;
 }
@@ -140,3 +153,8 @@ tr:hover {
     max-width: 1000px;
     width: 96%;
  }
+
+/*Images*/
+img {
+  width: 100%;
+}
