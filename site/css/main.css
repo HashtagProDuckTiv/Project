@@ -106,7 +106,7 @@ input[type=submit]:hover {
 /*Table*/
 table {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 0px;
   border-collapse: collapse;
 }
 
@@ -122,3 +122,21 @@ th {
   padding: 10px 5px 10px 5px;
   text-align: left;
 }
+
+tr:hover {
+  background-color: #c9c9c9;
+}
+
+/*Banner*/
+.banner {
+    background: url(task-banner.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 0px;
+}
+
+.wrapper {
+    margin: 0 0; /* This is what centers it */
+    max-width: 1000px;
+    width: 96%;
+ }
