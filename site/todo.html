@@ -28,8 +28,31 @@
 
 
     <div class="row">
-      <div class="column col-12u">
-        <form></form>
+      <div class="column col-4u">
+      </div>
+      <div class="column col-8u">
+        <form name="newTask" method="GET" action="python/newTask.py">
+          <center><h1><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;New Task</h1></center>
+          <div class="row">
+            <div class="column col-6u">
+              <input id="name" type="text" name="taskName" placeholder="Task Name" />
+            </div>
+            <div class="column col-6u">
+              <input id="name" type="text" name="dueDate" placeholder="Due Date MM/DD/YYYY" />
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="column col-12u">
+              <input id="description" type="text" name="taskDescription" placeholder="Task Description" />
+            </div>
+          </div>
+          <div class="row">
+
+          </div>
+            <input type="submit" value="Submit">
+
+        </form>
       </div>
     </div>
 
