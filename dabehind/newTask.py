@@ -5,22 +5,32 @@ def getQuery():
         d[k] = formData[k].value
     return d
 
-def formatTask(task):
-    newTask = "<Tahseen send me this>"
-    newTask += task
-    newTask += "</Plssend>"
 
+"""
+<tr>
+         <td>Due Date</th>
+          <td>Task Name</th>
+          <td>Task Description</th>
+          <td>Remove</th>
+</tr>
+"""
 query = getQuery()
 
-task = formatTask(query[newTask])
+def formatTask():
+    newTask = <tr>
+    newTask += <td> + str(query[dueDate]) + </td>
+    newTask += <td> + str(query[taskName]) + </td>
+    newTask += <td> + str(query[taskDescription]) + </td>
+    return newTask
+
+code = formatTask()
 
 raw = open('index.html', r)
 homepage = raw.read()
 raw.close()
 
-if newTask in q:
-    before = homepage.find('</table>')
-    homepage = homepage[:before] + task + homepage[before:]
+before = homepage.find('</table>')
+homepage = homepage[:before] + code + homepage[before:]
 
 taskpage = open('index.html', w)
 taskpage.write(homepage)
