@@ -29,7 +29,6 @@
     padding: 0;
     overflow: hidden;
     background-color: #000;
-    position: absolute;;
   }
 
 #navHorizontal li.loginbutton {
@@ -58,6 +57,8 @@
     background-color: #89bdd3;
   }
 
+  /*=================================BOTH==================================*/
+
   /*=========================VERTICAL NAVIGATION===========================*/
 
 #navVertical ul {
@@ -67,7 +68,7 @@
     width: 25%;
     background-color: #c9c9c9;
     height: 100%;
-    position: fixed;
+    position: absolute;
   }
 
 #navVertical li a {
