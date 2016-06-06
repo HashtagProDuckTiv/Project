@@ -15,12 +15,12 @@
  */
 
 /*Fonts*/
-p, input, textarea {
+p, input, textarea, td {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th {
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 800;
   color: #89bdd3;
@@ -87,8 +87,38 @@ input[type=submit] {
   margin-top: 0px;
 }
 
+input[type=submit]:hover {
+  background-color: #9ad3de;
+}
+
+#taskremove input[type=submit] {
+  background-color: #89bdd3;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 20%;
+  margin: 4px 2px 4px 2px;
+  margin-top: 0px;
+}
+
 /*Table*/
 table {
   width: 100%;
   margin-top: 30px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border-bottom: 1px solid black;
+}
+
+th, td {
+  padding: 5px 3px 5px 3px;
+}
+
+th {
+  padding: 10px 5px 10px 5px;
+  text-align: left;
 }
