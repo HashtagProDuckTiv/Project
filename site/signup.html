@@ -17,21 +17,43 @@
           <li class="loginbutton"><a href="signup.html" class="navButton" class="active"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp; &nbsp;Sign Up</a></li>
         </ul>
       </nav>
-      <nav id="navVertical">
-        <ul>
-          <li><a href="todo.html"><i class="fa fa-list-ul" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks To-Do</a></li>
-          <li><a href="completed.html"><i class="fa fa-check" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks Completed</a></li>
-          <li><a href="calendar.html"><i class="fa fa-calendar" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Calendar</a></li>
-        </ul>
-      </nav>
     </header>
 
 
-    <div class="row">
-      <div class="column col-9u">
-        <form></form>
-      </div>
-    </div>
+    <!--=====================================================NEW TASK FORM=======================================================-->
+        <div class="row">
+          <div class="column col-4u">
+          </div>
+          <div class="column col-8u">
+            <form name="signUp" method="POST" action="python/create.py">
+              <center><h1><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;Sign Up</h1></center>
+              <div class="row">
+                <div class="column col-3u">
+                </div>
+                <div class="column col-6u">
+                  <input id="name" type="text" name="user" placeholder="Username" />
+                  <br />
+                  <br />
+                  <br />
+                  <input id="name" type="password" name="pass" placeholder="Password" />
+                  <br />
+                  <br />
+                  <br />
+                  <input id="name" type="password" name="pass2" placeholder="Confirm Password" />
+                  <br />
+                  <br />
+                  <br />
+                  <center><input class="signup" name="status" type="submit" value="Sign Up"></center>
+                </div>
+                <div class="column col-3u">
+                </div>
+                <br />
+                <br />
+                <br />
+              </div>
+            </form>
+          </div>
+        </div>
 
   </body>
 </html>
