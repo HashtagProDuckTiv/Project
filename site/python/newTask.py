@@ -27,11 +27,16 @@ Format of the data in each column
 query = getQuery()
 
 def formatTask():
-    newTask = "\t\t<tr>\n"
+    newTask = "<tr>\n"
     newTask += "\t\t <td>" + str(query['dueDate']) + "</td>\n"
     newTask += "\t\t <td>" + str(query['taskName']) + "</td>\n"
     newTask += "\t\t <td>" + str(query['taskDescription']) + "</td>\n"
-    newTask += "\t\t</tr>\n"
+    newTask += """\t\t<td>
+              <form name="completeTask" method="GET" action="python/completeTask.py">
+                <input class="taskremove" type="submit" value="Completed">
+              </form>
+            </td>"""
+    newTask += "\t</tr>\n"
     return newTask
 
 code = formatTask()
