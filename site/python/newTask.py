@@ -26,26 +26,33 @@ Format of the data in each column
 """
 query = getQuery()
 
+raw = open('../todo.html', 'r')
+homepage = raw.read()
+raw.close()
+
+button = '<input class="taskremove" type="submit" value=complete'
+
+
 def formatTask():
     newTask = "<tr>\n"
     newTask += "\t\t <td>" + str(query['dueDate']) + "</td>\n"
     newTask += "\t\t <td>" + str(query['taskName']) + "</td>\n"
     newTask += "\t\t <td>" + str(query['taskDescription']) + "</td>\n"
-    newTask += """\t\t<td>
-              <form name="completeTask" method="GET" action="python/completeTask.py">
-                <input class="taskremove" type="submit" value="Completed">
-              </form>
-            </td>"""
+    newTask +="\t\t<td>"
+    newTask += '\t\t<form name="completeTask" method="GET" action="python/completeTask.py">'
+    newTask += button
+    newTask += '\t\t</form>'
+    newTask += '\t\t</td>'
     newTask += "\t</tr>\n"
     return newTask
 
+#print "<pre>" + homepage + "</pre>"
+
 code = formatTask()
+#print code
 
-raw = open('../todo.html', 'r')
-homepage = raw.read()
-raw.close()
 
-before = homepage.find('</table>')
+before = homepage.find('<!-- Here -->')
 homepage = homepage[:before] + code + homepage[before:]
 #print homepage
 
