@@ -55,5 +55,24 @@ _What ideas or code in your project originated somewhere other than the heads of
 -Tahseen used Producteev for three weeks. It was way too complex, slow and annoying. This is definitely an improvement on Producteev.
 -www.producteev.com
 
+# Desirable features, with time estimates
+
+## In Priority Order [BACK-END]:
+-Working checklist (sub priorities are important too)
+-Add new task
+-Check off
+-Saves
+-Completed Tasks
+-Showcase completed tasks 
+-Get Log in working (see: learn how to do log ins ._.)
+-LONG TERM POSSIBLY NOT ACHIEVABLE GOALS:
+--A calendar, to view and manage your tasks
+Make dealing with your tasks interactive, put all of them on ducks and have them move around?
+
+In Priority Order [FRONT-END]:
+Build a 12 Column Fluid Grid System 
+Figure out color scheme, fonts, etc
+Build a CSS files solely for design
+Build each HTML file and structure for each page!
 
 
