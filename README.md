@@ -48,12 +48,12 @@ _Who helped you? What did they contribute?_
 _What ideas or code in your project originated somewhere other than the heads of the partners? Provide links to any sources that are publicly available._
 
 ## Google Keep:
-Tahseen uses Google Keep on a daily basis, but sometimes it gets too complex and annoying.
-keep.google.com
+-Tahseen uses Google Keep on a daily basis, but sometimes it gets too complex and annoying.
+-keep.google.com
 
 ## Producteev:
-Tahseen used Producteev for three weeks. It was way too complex, slow and annoying. This is definitely an improvement on Producteev.
-www.producteev.com
+-Tahseen used Producteev for three weeks. It was way too complex, slow and annoying. This is definitely an improvement on Producteev.
+-www.producteev.com
 
 
 
