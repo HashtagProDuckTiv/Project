@@ -44,14 +44,14 @@ _Who helped you? What did they contribute?_
 ### Stack Overflow:
 -Taught us JSON, so that we could move list data around between files
 
-# Programming & Ideas
+## Programming & Ideas
 _What ideas or code in your project originated somewhere other than the heads of the partners? Provide links to any sources that are publicly available._
 
-## Google Keep:
+### Google Keep:
 -Tahseen uses Google Keep on a daily basis, but sometimes it gets too complex and annoying.
 -keep.google.com
 
-## Producteev:
+### Producteev:
 -Tahseen used Producteev for three weeks. It was way too complex, slow and annoying. This is definitely an improvement on Producteev.
 -www.producteev.com
 
