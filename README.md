@@ -13,7 +13,7 @@ github.com/TahseenChowdhury
 -Exact 50-50 split (each person did 2 bullet points)
 
 ### Weekend 6-3 → 6-5
--Tahseen did a majority of the work here, creating the HTML and CSS framework. All the pages were created and the form + task list were done by Monday
+-Tahseen did a majority of the work here, creating the HTML and CSS framework. All the pages were created and the form + task list were done by Monday. <Br/>
 --He did a really good job! -Adam
 -Adam worked on creating newTask.py. Wanting to wait for a functioning form system, he didn’t test it yet.
 
