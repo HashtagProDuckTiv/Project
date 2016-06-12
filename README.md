@@ -1,2 +1,59 @@
-# Project
-The entire project
+# Project Description
+The website serves as a productivity hub for people who want to organize their tasks and work they have to do. It’ll sync with a list of completed tasks and a calendar. The user will be able to see the small level of work they need to do, as well as the large scale level of work to do on the calendar.
+
+# Personnel
+Adam Abbas 
+github.com/Watabaws
+
+Tahseen Chowdhury
+github.com/TahseenChowdhury
+
+## Time Splt on Tasks
+### Proposal
+-Exact 50-50 split (each person did 2 bullet points)
+
+### Weekend 6-3 → 6-5
+-Tahseen did a majority of the work here, creating the HTML and CSS framework. All the pages were created and the form + task list were done by Monday
+--He did a really good job! -Adam
+-Adam worked on creating newTask.py. Wanting to wait for a functioning form system, he didn’t test it yet.
+
+### 6/6/16
+Backend finally met frontend, both Tahseen and Adam spent a lot of time perfecting things. They met at whole foods after school to make communicating easier. Having now received the front end, Adam did a bit more work in terms of modifying and creating new python codes to create and delete codes, however Tahseen still worked on making sure the pages looked good on every computer screen (no matter the size).
+
+### 6/8/16
+Tahseen developed the front end of the login and signup forms. 
+
+### 6/10/16
+Login backend files were finally connected with the frontend forms. Great thanks to Ms. Genkina for providing backend files.
+
+### 6/10/16
+Final login errors were corrected. Adam made final backend touch ups. Tahseen made final frontend touch ups. The calendar goal was abandoned.
+
+# Citations
+
+## People
+_Who helped you? What did they contribute?_
+
+### Ms. Genkina:
+-Gave us the lovely code to return a dictionary with the query values (our getQuery function)
+-Gave us the even lovelier login/signup code that was integrated into our site Log In/Sign Up pages. Confirm password and logout features we didn’t previously have - woo!
+
+### Sophia Gunluk: 
+-Thank you Sophia Gunluk (Mr. K’s PD 2 Intro 2 Class) for explaining how to make user specific web pages, by passing along the user query and storing the data along with the users+passwords.
+
+### Stack Overflow:
+-Taught us JSON, so that we could move list data around between files
+
+# Programming & Ideas
+_What ideas or code in your project originated somewhere other than the heads of the partners? Provide links to any sources that are publicly available._
+
+## Google Keep:
+Tahseen uses Google Keep on a daily basis, but sometimes it gets too complex and annoying.
+keep.google.com
+
+## Producteev:
+Tahseen used Producteev for three weeks. It was way too complex, slow and annoying. This is definitely an improvement on Producteev.
+www.producteev.com
+
+
+
