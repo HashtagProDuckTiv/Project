@@ -76,13 +76,13 @@ _What ideas or code in your project originated somewhere other than the heads of
 -Get Log in working (see: learn how to do log ins ._.)
 <br />
 ##### LONG TERM POSSIBLY NOT ACHIEVABLE GOALS:
---A calendar, to view and manage your tasks
-Make dealing with your tasks interactive, put all of them on ducks and have them move around?
+-A calendar, to view and manage your tasks
+-Make dealing with your tasks interactive, put all of them on ducks and have them move around?
 
-In Priority Order [FRONT-END]:
-Build a 12 Column Fluid Grid System 
-Figure out color scheme, fonts, etc
-Build a CSS files solely for design
-Build each HTML file and structure for each page!
+## In Priority Order [FRONT-END]:
+-Build a 12 Column Fluid Grid System 
+-Figure out color scheme, fonts, etc
+-Build a CSS files solely for design
+-Build each HTML file and structure for each page!
 
 
