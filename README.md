@@ -118,4 +118,22 @@ Ace programmer Gene Lewin taught me the value of a list like this, which grows a
 <br />
 -Potential Email reminders
 
+# Finished Steps, identified by worker
+_As you complete steps, move them from the "Next Steps" section to this section. For each step, identify which partner(s) did the work to accomplish the step._
+
+-Functioning website created, color schemes identified and fonts in place all in a 12 column fluid-grid system. -Tahseen 
+<br />
+-Webpages for every page is now created, complete with frontend. -Tahseen
+<br />
+-Creating a Task is now possible!! So is deleting all your tasks!! -Adam
+<br />
+-Login forms & sign ups were created and linked with the template Ms. Genkina created.
+<br />
+---Tahseen took care of setting it up.
+<br />
+---Adam tweaked it to make it our own.
+<br />
+-Deleted tasks now go to the completed task pages. - Adam
+
+# Bugs
 
