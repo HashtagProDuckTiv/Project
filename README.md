@@ -136,4 +136,6 @@ _As you complete steps, move them from the "Next Steps" section to this section.
 -Deleted tasks now go to the completed task pages. - Adam
 
 # Bugs
-
+_What problems remain with aims you have achieved?
+<br />
+Here, for example, is the "bugs" section from a nearly-arbitrarily-selected page from the Unix documentation. If, in my brief testing, I find a bug that you did not report that's bad, since it suggests you did insufficient testing, possibly none._
