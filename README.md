@@ -77,23 +77,32 @@ _What ideas or code in your project originated somewhere other than the heads of
 <br />
 ##### LONG TERM POSSIBLY NOT ACHIEVABLE GOALS:
 -A calendar, to view and manage your tasks
+<br />
 -Make dealing with your tasks interactive, put all of them on ducks and have them move around?
 
 ## In Priority Order [FRONT-END]:
 -Build a 12 Column Fluid Grid System 
+<br />
 -Figure out color scheme, fonts, etc
+<br />
 -Build a CSS files solely for design
+<br />
 -Build each HTML file and structure for each page!
+<br />
 
 # Achievements
 _Which of your aims did you accomplish?
 <br />
 Help the grader see significant features of your project. Do the math: in a 35-hour week I could spend 20 minutes on each of 100 projects. Between reading documentation, reviewing code, assigning points according to a rubric, and recording comments, I may have 5–7 minutes to spend running your project. Unless you tell me where to look, I am unlikely to notice the cool parts. So please tell me where to look._
 
--12 Column Fluid Grid System, great! -Tahseen
+-12 Column Fluid Grid System
+<br />
 -Login System
+<br />
 -Individualized Task Lists
+<br />
 -Delete Tasks
+<br />
 
 # Next Steps, with time estimates
 _Did you just create a dummy version of a function that will be completed later? List it here.
@@ -104,7 +113,9 @@ Ace programmer Gene Lewin taught me the value of a list like this, which grows a
 
 ### As of 6/12 - For the future
 -Possibly a Calendar
+<br />
 -Potential Text Message reminders
+<br />
 -Potential Email reminders
 
 
