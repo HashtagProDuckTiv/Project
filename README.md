@@ -85,4 +85,26 @@ _What ideas or code in your project originated somewhere other than the heads of
 -Build a CSS files solely for design
 -Build each HTML file and structure for each page!
 
+# Achievements
+_Which of your aims did you accomplish?
+<br />
+Help the grader see significant features of your project. Do the math: in a 35-hour week I could spend 20 minutes on each of 100 projects. Between reading documentation, reviewing code, assigning points according to a rubric, and recording comments, I may have 5–7 minutes to spend running your project. Unless you tell me where to look, I am unlikely to notice the cool parts. So please tell me where to look._
+
+-12 Column Fluid Grid System, great! -Tahseen
+-Login System
+-Individualized Task Lists
+-Delete Tasks
+
+# Next Steps, with time estimates
+_Did you just create a dummy version of a function that will be completed later? List it here.
+<br />
+Did you find a bug whose repair can be postponed, so you maintain your focus on the current task? List it here.
+<br />
+Ace programmer Gene Lewin taught me the value of a list like this, which grows and shrinks during programming. Ideally, it shrinks to a null list and the project is considered done._
+
+### As of 6/12 - For the future
+-Possibly a Calendar
+-Potential Text Message reminders
+-Potential Email reminders
+
 
