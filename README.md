@@ -14,7 +14,7 @@ github.com/TahseenChowdhury
 
 ### Weekend 6-3 → 6-5
 -Tahseen did a majority of the work here, creating the HTML and CSS framework. All the pages were created and the form + task list were done by Monday. 
---He did a really good job! -Adam <Br/>
+<br />
 -Adam worked on creating newTask.py. Wanting to wait for a functioning form system, he didn’t test it yet.
 
 ### 6/6/16
@@ -36,6 +36,7 @@ _Who helped you? What did they contribute?_
 
 ### Ms. Genkina:
 -Gave us the lovely code to return a dictionary with the query values (our getQuery function)
+<br />
 -Gave us the even lovelier login/signup code that was integrated into our site Log In/Sign Up pages. Confirm password and logout features we didn’t previously have - woo!
 
 ### Sophia Gunluk: 
@@ -49,23 +50,32 @@ _What ideas or code in your project originated somewhere other than the heads of
 
 ### Google Keep:
 -Tahseen uses Google Keep on a daily basis, but sometimes it gets too complex and annoying.
+<br />
 -keep.google.com
 
 ### Producteev:
 -Tahseen used Producteev for three weeks. It was way too complex, slow and annoying. This is definitely an improvement on Producteev.
+<br />
 -www.producteev.com
 
 # Desirable features, with time estimates
 
 ## In Priority Order [BACK-END]:
 -Working checklist (sub priorities are important too)
+<br />
 -Add new task
+<br />
 -Check off
+<br />
 -Saves
+<br />
 -Completed Tasks
+<br />
 -Showcase completed tasks 
+<br />
 -Get Log in working (see: learn how to do log ins ._.)
--LONG TERM POSSIBLY NOT ACHIEVABLE GOALS:
+<br />
+##### LONG TERM POSSIBLY NOT ACHIEVABLE GOALS:
 --A calendar, to view and manage your tasks
 Make dealing with your tasks interactive, put all of them on ducks and have them move around?
 
