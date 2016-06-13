@@ -43,7 +43,7 @@ user = query['user']
 ind = int(query['ind'])
 uind = findUserInd(user)
 
-print users
+#print users
 print "<br>"
 
 uzer = users[uind]
@@ -66,9 +66,9 @@ print dusers
 def findDUserInd(user):
     for i in dusers:
         if i[0] == user:
-            return users.index(i)
+            return dusers.index(i)
 
-udind = findDUserInd(user)
+udind = findDUserInd(dusers)
 dusers[udind].append(newThing)
 
 writ = open('delUsers.txt', 'w')
