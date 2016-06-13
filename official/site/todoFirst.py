@@ -28,7 +28,7 @@ html ="""<!DOCTYPE HTML>
       <nav id="navVertical">
         <ul>
           <li><a href="#" class="active"><i class="fa fa-list-ul" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks To-Do</a></li>
-          <li><a href="completed.html"><i class="fa fa-check" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks Completed</a></li>
+          <li><a href='python/completed.py?user=""" + str(user) + """'><i class="fa fa-check" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks Completed</a></li>
         </ul>
       </nav>
     </header>
@@ -59,6 +59,10 @@ html ="""<!DOCTYPE HTML>
           </div>
             <center><input class="taskadd" type="submit" value="Submit"></center>
         </form>
+        <form name="completeTask" method="GET" action='python/todo.py?user=""" + str(user) + """'>
+            <input type="hidden" name="user" value='""" + str(user) + """'>
+            <center><input class="taskadd" type="submit" value="Go to Your Tasks"></center>
+        </form>
       </div>
     </div>
 
@@ -75,9 +79,9 @@ html ="""<!DOCTYPE HTML>
           <th>Task Description</th>
           <th>Remove</th>
           <tr>
-            <td>Test</td>
-            <td>Test</td>
-            <td>Test</td>
+            <td>Example</td>
+            <td>Example</td>
+            <td>Example</td>
             <td>
               <form name="completeTask" method="GET" action="python/completeTask.py">
                 <input class="taskremove" type="submit" value="Completed">

@@ -76,15 +76,58 @@ users[ind]+= [tabl]
 
 users = unformatit(users)
 
-form =  '<form action="todo.py">'
-form += '<input type="hidden" name="user" value=' + str(user) + '>'
-form += '<input type="submit" value="Click to Return to the main site.">'
-form += '</form>'
-
-print form
-
 wryt = open('users.txt', 'w')
 wryt.write(users)
 wryt.close()
+
+html="""<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ProDuckTiv</title>
+    <link rel="stylesheet" href="../css/fluidgrid.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="navHorizontal">
+        <ul>
+          <li class="logo"><a href="../index.html"><h1>ProDuckTiv</h1></a></li>
+          <li class="loginbutton"><a href="../login.html" class="navButton"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; &nbsp;Login</a></li>
+          <li class="loginbutton"><a href="../signup.html" class="navButton" class="active"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp; &nbsp;Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--=========================BANNER============================-->
+
+    <div class="row">
+      <div class="column col-2u">
+      </div>
+      <div class="column col-10u">
+        <center>
+          <form action='completed.py?user=""" + str(user) + """'>
+            <div class="row">
+              <div class="column col-3u">
+              </div>
+              <div class="column col-6u">
+                <input type="hidden" name="user" value='""" + str(user) + """'>
+                <center><input class="signlog" type="submit" value="Back to To-Do"></center>
+              </div>
+              <div class="column col-3u">
+              </div>
+            </div>
+          </form>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
+"""
+
+print html
+
 
 
