@@ -29,7 +29,6 @@ html ="""<!DOCTYPE HTML>
         <ul>
           <li><a href="#" class="active"><i class="fa fa-list-ul" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks To-Do</a></li>
           <li><a href="completed.html"><i class="fa fa-check" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Tasks Completed</a></li>
-          <li><a href="calendar.html"><i class="fa fa-calendar" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;Calendar</a></li>
         </ul>
       </nav>
     </header>
