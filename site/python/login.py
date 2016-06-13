@@ -86,14 +86,14 @@ def login(form):
         result += "Success!<br>\n"
         #add user to logged in status
         magicNumber = logInUser(user)
-        result += '<a href="page1.py?user='+user+'&magicnumber='+str(magicNumber)+'">Click here to go to the main site!</a>'
+        result += '<a href="../todoFirst.py?user='+user+'&magicnumber='+str(magicNumber)+'">Click here to go to the main site!</a>'
     else:
         result += "Failed to log in, authentication failure"
     return result
 
 
 def notLoggedIn():
-    return '''You need to login, <a href="login.html">here</a>\n'''
+    return '''You need to login, <a href="../login.html">here</a>\n'''
 
 def main():
     form = cgi.FieldStorage()

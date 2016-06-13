@@ -2,6 +2,8 @@
 print "Content-Type: text/html\n"
 print ""
 
+import cgi
+
 queerE = cgi.FieldStorage()
 user = queerE['user'].value
 html ="""<!DOCTYPE HTML>
@@ -37,7 +39,8 @@ html ="""<!DOCTYPE HTML>
       <div class="column col-4u">
       </div>
       <div class="column col-8u">
-        <form name="newTask" method="GET" action="python/newTask.py?=""" + str(user)""">
+        <form name="newTask" method="GET" action="python/newTask.py?=">
+        <input type="hidden" name="user" value=""" + str(user) + """>
           <center><h1><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;New Task</h1></center>
           <div class="row">
             <div class="column col-6u">
@@ -86,5 +89,6 @@ html ="""<!DOCTYPE HTML>
 
 
   </body>
-</html>
-"""
+</html>"""
+
+print html

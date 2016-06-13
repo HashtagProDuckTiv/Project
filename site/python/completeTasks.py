@@ -14,18 +14,6 @@ def getQuery():
         d[k] = formData[k].value
     return d
 
-
-"""
-Format of the data in each column
-<tr>
-         <td>Due Date</th>
-          <td>Task Name</td>
-          <td>Task Description</td>
-          <td>Remove</th>
-</tr>
-"""
-
-
 def formatit(listt):
     for i in listt:
         listt[listt.index(i)] = i.strip()
@@ -43,6 +31,7 @@ def unformatit(listt):
 
 query = getQuery()
 user = query['user']
+ind = query['ind']
 
 def findUserInd(user):
     for i in users:
@@ -54,11 +43,6 @@ raw = open('users.txt', 'r')
 users = formatit(raw.readlines())
 raw.close()
 
-user = query['user']
-date = str(query['dueDate']) 
-name = str(query['taskName'])
-descrip = str(query['taskDescription'])
-tableD = users
 
 
 ind = findUserInd(user)

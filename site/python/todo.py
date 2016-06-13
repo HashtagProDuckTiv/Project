@@ -2,16 +2,39 @@
 print "Content-Type: text/html\n"
 print ""
 
+import cgi,cgitb
+
+cgitb.enable()
+
 queerE = cgi.FieldStorage()
-user = queerE['user'].value
-html ="""<!DOCTYPE HTML>
+user = queerE['user'].value   
+def formatit(listt):
+    for i in listt:
+        listt[listt.index(i)] = i.strip()
+    newJuan = []
+    for i in listt:
+        newJuan += [i.split(',')]
+    return newJuan
+
+raw = open('users.txt', 'r')
+users = formatit(raw.readlines())
+raw.close()
+
+def findUserInd(user):
+    for i in users:
+        if i[0] == user:
+            return users.index(i)
+
+        
+html = """
+<!DOCTYPE HTML>
 <html>
   <head>
     <title>ProDuckTiv</title>
-    <link rel="stylesheet" href="css/fluidgrid.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/fluidgrid.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
   </head>
 
   <body>
@@ -37,7 +60,8 @@ html ="""<!DOCTYPE HTML>
       <div class="column col-4u">
       </div>
       <div class="column col-8u">
-        <form name="newTask" method="GET" action="python/newTask.py?=""" + str(user)""">
+        <form name="newTask" method="GET" action="newTask.py">
+          <input type="hidden" name="user" value=""" + str(user) + """>
           <center><h1><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;New Task</h1></center>
           <div class="row">
             <div class="column col-6u">
@@ -72,15 +96,22 @@ html ="""<!DOCTYPE HTML>
           <th>Task Name</th>
           <th>Task Description</th>
           <th>Remove</th>
-          <tr>
-            <td>Test</td>
-            <td>Test</td>
-            <td>Test</td>
-            <td>
-              <form name="completeTask" method="GET" action="python/completeTask.py">
-                <input class="taskremove" type="submit" value="Completed">
-              </form>
-	     </table>
+          <!-- Here -->"""
+print "<br>"
+data = users[findUserInd(user)][2:]
+print data
+for i in data:
+    html += i
+    html += '<td>'
+    html += '<form name="completeTask" method="GET" action="python/completeTask.py">'
+    html += '<input type="hidden" name="ind" value=' + str((data.index(i)+2)) + '>'
+    html += '<input type="hidden" name="user" value=' + str(user) + '>'
+    html += '<input class="taskremove" type="submit" value="Complete">'
+    html += '</form>'
+    html += '</td></tr>'
+
+    
+html += """</table>
       </div>
     </div>
 
@@ -88,3 +119,5 @@ html ="""<!DOCTYPE HTML>
   </body>
 </html>
 """
+
+print html
